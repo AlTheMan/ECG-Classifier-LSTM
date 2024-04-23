@@ -3,8 +3,19 @@
 Useed the time series data presented in [https://physionet.org/content/ptb-xl/1.0.1/Links](https://physionet.org/content/ptb-xl/1.0.1/https://physionet.org/content/ptb-xl/1.0.1/) to classify ECG signals into the respective classes (diagnostic superclasses). The classes are mentioned in the page. I used an LSTM, multi-label classification, and combined tabular with time series data. The highest performing model had an ROC AUC score of 83%. More info is in the ECG.ipynb <br> <br>
 
 The dataset is PTB-XL, a large publicly available electrocardiography dataset
+<br>
+<br>
+Instructions:
+<br>
+You will need to download the dataset from the website above. I used version 1.0.1 from 2020. The data should be stored in folders "records100" and "records500", just like they do in the folder from the dataset. Place the folders in the same map as the notebook.
 
-
+<br>
+Installation with Anaconda/conda: <br>
+open Anaconda Powershell Prompt <br>
+conda create --name ECG <br>
+conda activate ECG <br>
+conda install --file requirements.txt <br>
+Open notebook (ECG.ipynb) through IDE (Anaconda/VSC etc)
 
 
 <br> <br>
