@@ -15,7 +15,7 @@ open Anaconda Powershell Prompt <br>
 conda create --name ECG <br>
 conda activate ECG <br>
 conda install --file requirements.txt <br>
-Open notebook (ECG.ipynb) through IDE (Anaconda/VSC etc)
+Open notebook (ECG.ipynb) through your IDE of choice (Anaconda/VSC etc)
 
 
 <br> <br>
