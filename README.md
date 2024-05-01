@@ -1,6 +1,6 @@
 # ECG-neural-network
  
-Used the time series data from the dataset <a href="https://physionet.org/content/ptb-xl/1.0.1/"> PTB-XL </a> (a large publicly available electrocardiography dataset) to classify ECG signals into the respective classes (diagnostic superclasses). The classes are mentioned in the link below. I used an LSTM, multi-label classification, and combined tabular with time series data. The highest performing model had an ROC AUC score of 83%. More info is in the ECG.ipynb <br> <br>
+Used the time series data from the dataset <a href="https://physionet.org/content/ptb-xl/1.0.1/"> PTB-XL </a> (a large publicly available electrocardiography dataset) to classify ECG signals into the respective classes (diagnostic superclasses). The classes are mentioned in the link. I used an LSTM, multi-label classification, and combined tabular with time series data. The highest performing model had an ROC AUC score of 83%. More info is in the ECG.ipynb <br> <br>
 
 <br>
 <br>
